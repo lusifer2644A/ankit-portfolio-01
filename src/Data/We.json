@@ -1,0 +1,20 @@
+[
+    {
+        "type": "Internship",
+        "company": "GEOGO Techsolutions, Benguluru, Karnataka",
+        "position": "Full Stack Developer Intern",
+        "duration": "Nov 2021 - Jan 2022"
+    },
+    {
+        "type": "Votenteer",
+        "company": "Student Gymkhana, IIT(ISM), Dhanbad",
+        "position": "Full Stack Developer",
+        "duration": "Aug 2021 - Oct 2021"
+    },
+    {
+        "type": "Internship",
+        "company": "Stargate Inc.",
+        "position": "Frontend Developer",
+        "duration": "Jun 2021 - Jul 2021"
+    }
+]

@@ -1,0 +1,27 @@
+@import "../../App.scss";
+
+.POR {
+    .pr-div {
+        .pr-grid {
+            display: grid;
+            width: fit-content;
+
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .POR {
+        .pr-div {
+            .pr-grid {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+    }
+}

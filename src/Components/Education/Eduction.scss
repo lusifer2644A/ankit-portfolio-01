@@ -1,0 +1,52 @@
+@import "../../App.scss";
+
+.edu {
+    .edu-container {
+        display: grid;
+        width: fit-content;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 15px;
+        row-gap: 10px;
+
+        .edu-img {
+            max-width: 600px;
+            height: 280px;
+            transform: translateY(35%);
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 22px;
+                object-fit: cover;
+                transform: translateZ(0em) perspective(200px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .edu {
+        .edu-container {
+            display: flex;
+            flex-direction: column-reverse;
+
+            column-gap: 10px;
+            row-gap: 10px;
+
+            .edu-img {
+                max-width: 600px;
+                height: auto;
+                transform: translateY(0);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 22px;
+                    object-fit: cover;
+                    transform: translateZ(0em) perspective(200px);
+                }
+            }
+        }
+    }
+}

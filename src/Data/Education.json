@@ -1,0 +1,20 @@
+[
+    {
+        "type": "BACHELOR’S",
+        "company": "Indian Institute of Technology (ISM), Dhanbad",
+        "position": "Electronics and Communication Engineering",
+        "duration": "July 2019 - May 2023"
+    },
+    {
+        "type": "AICSSE",
+        "company": "Delhi Public School, Ranchi",
+        "position": "PCM",
+        "duration": "April 2016 - April 2018"
+    },
+    {
+        "type": "SSC",
+        "company": "D.A.V. Public School, Gumla",
+        "position": "PCMB",
+        "duration": "April 2014 - April 2016"
+    }
+]

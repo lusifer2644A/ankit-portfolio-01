@@ -1,0 +1,36 @@
+.card {
+    max-width: 650px;
+    min-height: 200px;
+    background-color: var(--primary-color2);
+    border-radius: 22px;
+    padding: 25px;
+    user-select: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+
+    .card-type {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .card {
+        max-width: 650px;
+        width: 100%;
+        min-height: 200px;
+        background-color: var(--primary-color2);
+        border-radius: 22px;
+        padding: 25px;
+        user-select: none;
+        transition: 0.3s ease;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+
+        .card-type {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            padding-bottom: 8px;
+        }
+    }
+}

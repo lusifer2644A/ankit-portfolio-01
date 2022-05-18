@@ -1,0 +1,88 @@
+@import "../../App.scss";
+
+.skill {
+    .skill-cont-flex {
+        display: flex;
+        justify-content: flex-end;
+
+        .skill-container {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            row-gap: 10px;
+            width: fit-content;
+            .starBox {
+                height: 20px;
+                width: 20px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.pglang-content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    width: fit-content;
+    column-gap: 40px;
+    row-gap: 10px;
+    align-items: center;
+    margin-top: 12px;
+
+    .m {
+        margin-top: 0;
+    }
+}
+
+.starBox {
+    margin-right: 10px;
+}
+
+.skillCardGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 100px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 12px;
+
+    .m {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .pglang-content {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto;
+        width: fit-content;
+        column-gap: 50px;
+        row-gap: 10px;
+        align-items: center;
+        margin-top: 12px;
+
+        .m {
+            margin-top: 0;
+        }
+    }
+    .skill {
+        .skill-cont-flex {
+            .skill-container {
+                display: flex;
+                flex-direction: column;
+                column-gap: 10px;
+                row-gap: 10px;
+                width: 100%;
+            }
+        }
+    }
+}

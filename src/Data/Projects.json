@@ -1,0 +1,20 @@
+[
+    {
+        "type": "project",
+        "company": "Cowin Clone",
+        "position": "MERN Stack, SMS APIs",
+        "duration": "Jan 2022"
+    },
+    {
+        "type": "project",
+        "company": "Devbook",
+        "position": "MERN Stack, HTML, CSS, Github APIs.",
+        "duration": "Aug 2021 - Sep 2021"
+    },
+    {
+        "type": "project",
+        "company": "Sorting Visualiser",
+        "position": "React.js, HTML, CSS, JavaScript",
+        "duration": "June 2021"
+    }
+]

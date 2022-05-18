@@ -1,0 +1,142 @@
+@import "../../App.scss";
+
+.landing {
+    padding-top: calc(var(--navbar-height) + 100px);
+    // background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    // column-gap: 100px;
+
+    .landing-details {
+        // background-color: yellowgreen;
+        max-width: 660px;
+
+        .arrow-icon {
+            width: var(--font-medium);
+        }
+    }
+
+    .container-landing_image {
+        width: 40%;
+        // background-color: yellow;
+        display: flex;
+        justify-content: flex-end;
+
+        .landing_image {
+            width: 500px;
+            height: 500px;
+            // background-color: purple;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1570px) {
+    .landing {
+        padding-top: calc(var(--navbar-height) + 100px);
+
+        .landing-details {
+            max-width: 550px;
+        }
+
+        .container-landing_image {
+            .landing_image {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .landing {
+        padding-top: calc(var(--navbar-height) + 100px);
+
+        .landing-details {
+            max-width: 550px;
+
+            .xl {
+                font-size: 45px;
+            }
+
+            .l {
+                font-size: 22px;
+            }
+
+            .s {
+                font-size: 16px;
+            }
+        }
+
+        .container-landing_image {
+            .landing_image {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .landing {
+        padding-top: calc(var(--navbar-height) + 50px);
+
+        .landing-details {
+            max-width: 550px;
+
+            .xl {
+                font-size: 45px;
+            }
+
+            .l {
+                font-size: 22px;
+            }
+
+            .m {
+                font-size: 20px;
+            }
+
+            .s {
+                font-size: 16px;
+            }
+        }
+
+        .container-landing_image {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .landing {
+        padding-top: calc(var(--navbar-height) + 50px);
+
+        .landing-details {
+            max-width: 550px;
+
+            .xl {
+                font-size: 35px;
+            }
+
+            .l {
+                font-size: 18px;
+            }
+
+            .m {
+                font-size: 20px;
+            }
+
+            .s {
+                font-size: 15px;
+            }
+        }
+
+        .container-landing_image {
+            display: none;
+        }
+    }
+}
