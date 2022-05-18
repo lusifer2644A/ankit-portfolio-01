@@ -71,7 +71,7 @@ const Header = () => {
                               flexDirection: "column",
                               justifyContent: "space-evenly",
                           }
-                        : {}
+                        : { padding: "10px 1em" }
                 }
             >
                 {navItems}
