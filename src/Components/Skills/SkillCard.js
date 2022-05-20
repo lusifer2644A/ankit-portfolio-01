@@ -24,7 +24,12 @@ const SkillCard = ({ data, style }) => {
     }
 
     return (
-        <div className="card skillCard" style={style}>
+        <div
+            className="card skillCard"
+            style={style}
+            data-aos="zoom-in"
+            data-aos-once="true"
+        >
             <p className="card-type dgc regular xs">{data.type}</p>
             {internalData}
         </div>

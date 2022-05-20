@@ -21,4 +21,51 @@
     &:hover {
         background-color: var(--secondary-dark-color);
     }
+
+    .button-icon {
+        width: 40px;
+        height: 40px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .button {
+        margin-top: 3em;
+        padding: 6px 15px;
+
+        .m {
+            margin-top: 0;
+            font-size: var(--font-small);
+        }
+
+        div {
+            column-gap: 4px;
+        }
+
+        .button-icon {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        margin-top: 3em;
+        padding: 8px 18px;
+
+        .m {
+            margin-top: 0;
+        }
+
+        div {
+            column-gap: 4px;
+        }
+    }
 }

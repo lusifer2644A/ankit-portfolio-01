@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.scss";
 import Achieve from "./Components/Achievements/Achieve";
 import Contact from "./Components/Contact/Contact";
@@ -9,7 +10,16 @@ import Project from "./Components/Project/Project";
 import Skills from "./Components/Skills/Skills";
 import We from "./Components/Work Experiance/We";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+    useEffect(() => {
+        Aos.init({
+            duration: 1000,
+            offset: 300,
+        });
+    }, []);
     return (
         <div className="App">
             <Header />

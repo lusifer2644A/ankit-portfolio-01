@@ -55,7 +55,12 @@ const Skills = () => {
 
     //card programming languages
     const progCard = (
-        <div className="card" style={width > 750 ? { gridColumn: "2" } : {}}>
+        <div
+            className="card"
+            style={width > 750 ? { gridColumn: "2" } : {}}
+            data-aos="zoom-in"
+            data-aos-once="true"
+        >
             <p className="card-type dgc regular xs">Programming Languages</p>
             {/* Star and name */}
             <div className="pglang-content">
