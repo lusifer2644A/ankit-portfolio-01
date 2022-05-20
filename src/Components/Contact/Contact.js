@@ -26,13 +26,17 @@ const Contact = () => {
                         <div className="flex flex-row email-area align-items">
                             <div className="c-icon">{email}</div>
                             <h3 className="m dgc medium">
-                                ankit.19je0147@ece.iitism.ac.in
+                                <a href="mailto:ankit.19je0147@ece.iitism.ac.in">
+                                    ankit.19je0147@ece.iitism.ac.in
+                                </a>
                             </h3>
                         </div>
                         <div className="flex flex-row email-area">
                             <div className="c-icon">{email}</div>
                             <h3 className="m dgc medium">
-                                8083ankit@gmail.com
+                                <a href="mailto:8083ankit@gmail.com">
+                                    8083ankit@gmail.com
+                                </a>
                             </h3>
                         </div>
                     </div>
