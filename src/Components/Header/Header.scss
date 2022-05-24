@@ -70,3 +70,9 @@
         transform: scale(0.9);
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        padding-right: 10px;
+    }
+}
