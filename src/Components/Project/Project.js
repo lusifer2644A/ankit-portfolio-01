@@ -2,7 +2,6 @@ import React from "react";
 import Heading from "../Layouts/ Heading/Heading";
 import Card from "../Layouts/Card/Card";
 import ProjectData from "../../Data/Projects.json";
-
 import "./Project.scss";
 
 const Project = () => {

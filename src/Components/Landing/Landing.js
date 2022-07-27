@@ -9,8 +9,11 @@ const Landing = () => {
         <section className="landing flex flex-row " id="home">
             <div className="landing-details">
                 <h1 className="xl bold">Ankit Kumar Gupta</h1>
-                <h2 className="l semi-bold mb-20">
-                    Upcoming Intern @Reliance JIO
+                <h2 className="m semi-bold mb-10">
+                    Part-time Developer @Goglocal
+                </h2>
+                <h2 className="m regular mb-20">
+                    Ex-SDE Intern @JIO Platforms
                 </h2>
                 <p className="s regular dgc">
                     I’m a pre-final year student pursuing Bachelors of

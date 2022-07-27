@@ -34,8 +34,8 @@ const Contact = () => {
                         <div className="flex flex-row email-area">
                             <div className="c-icon">{email}</div>
                             <h3 className="m dgc medium">
-                                <a href="mailto:8083ankit@gmail.com">
-                                    8083ankit@gmail.com
+                                <a href="mailto:kumarguptaankit001@gmail.com">
+                                    kumarguptaankit001@gmail.com
                                 </a>
                             </h3>
                         </div>

@@ -1,12 +1,24 @@
 [
     {
         "type": "Internship",
+        "company": "JIO Platforms, Navi Mumbai, Maharashtra",
+        "position": "Software Development Engineer",
+        "duration": "May 2022 - Jul 2022"
+    },
+    {
+        "type": "Part-Time",
+        "company": "Goglocal, Mumbai, Maharashtra",
+        "position": "Frontend Developer",
+        "duration": "May 2022 - Present"
+    },
+    {
+        "type": "Internship",
         "company": "GEOGO Techsolutions, Benguluru, Karnataka",
-        "position": "Full Stack Developer Intern",
+        "position": "Full Stack Developer",
         "duration": "Nov 2021 - Jan 2022"
     },
     {
-        "type": "Votenteer",
+        "type": "Volenteer",
         "company": "Student Gymkhana, IIT(ISM), Dhanbad",
         "position": "Full Stack Developer",
         "duration": "Aug 2021 - Oct 2021"

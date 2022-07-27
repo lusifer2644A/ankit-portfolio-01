@@ -17,6 +17,24 @@ const Card = ({ data, style, dataAos, dataAosDelay = 0 }) => {
             <h2 className="card-company wc semi-bold m">{data.company}</h2>
             <h3 className="card-position lgc semi-bold s">{data.position}</h3>
             <p className="card-duration lgc regular xs">{data.duration}</p>
+            {data.github && (
+                <div className="card-links">
+                    {data.github && (
+                        <a href={data.github} target="_blank">
+                            <div className="card-link-icon">
+                                <img src="https://img.icons8.com/material-outlined/24/ffffff/github.png" />
+                            </div>
+                        </a>
+                    )}
+                    {data.website && (
+                        <a href={data.website} target="_blank">
+                            <div className="card-link-icon">
+                                <img src="https://img.icons8.com/material-outlined/24/ffffff/globe.png" />
+                            </div>
+                        </a>
+                    )}
+                </div>
+            )}
         </div>
     );
 };

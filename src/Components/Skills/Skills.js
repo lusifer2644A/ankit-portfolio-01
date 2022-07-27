@@ -19,11 +19,11 @@ const pgData = [
         rating: 4,
     },
     {
-        lang: "Java",
+        lang: "Python",
         rating: 4,
     },
     {
-        lang: "Python",
+        lang: "Java",
         rating: 3,
     },
 ];
@@ -42,7 +42,11 @@ const skillData = [
     },
     {
         type: "BACKEND",
-        fields: ["Node.js", "MongoDB", "Express"],
+        fields: ["Node.js", "MongoDB", "Express", "Fast API"],
+    },
+    {
+        type: "Devops",
+        fields: ["Docker", "Kubernetes", "Azure"],
     },
 ];
 
