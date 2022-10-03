@@ -22,14 +22,14 @@ const Card = ({ data, style, dataAos, dataAosDelay = 0 }) => {
                     {data.github && (
                         <a href={data.github} target="_blank">
                             <div className="card-link-icon">
-                                <img src="https://img.icons8.com/material-outlined/24/ffffff/github.png" />
+                                <img src="https://img.icons8.com/material-outlined/50/ffffff/github.png" />
                             </div>
                         </a>
                     )}
                     {data.website && (
                         <a href={data.website} target="_blank">
                             <div className="card-link-icon">
-                                <img src="https://img.icons8.com/material-outlined/24/ffffff/globe.png" />
+                                <img src="https://img.icons8.com/material-outlined/50/ffffff/globe.png" />
                             </div>
                         </a>
                     )}
