@@ -18,11 +18,16 @@ const Landing = () => {
             Hello!
           </span>
         </div>
-        <div className="mb-10">
-          <span className="m bold ff-raleway" style={{ marginRight: "10px" }}>
+        <div className="mb-10 name_title">
+          <span
+            className="m bold ff-raleway"
+            style={{ marginRight: "10px", marginTop: "0" }}
+          >
             I'm
           </span>
-          <span className="xl bold ff-raleway ">Ankit Kumar Gupta</span>
+          <span className="xl bold ff-raleway " style={{ marginTop: "0" }}>
+            Ankit Kumar Gupta
+          </span>
         </div>
         <h2 className="m semi-bold">Full-time Developer Intern @Goglocal</h2>
         <h2 className="s regular mb-20" style={{ marginTop: "3px" }}>

@@ -66,6 +66,11 @@
   }
 }
 
+.name_title {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 1570px) {
   .landing {
     padding-top: calc(var(--navbar-height) + 100px);
@@ -150,15 +155,15 @@
       max-width: 550px;
 
       .xl {
-        font-size: 35px;
+        font-size: 37px;
       }
 
       .l {
-        font-size: 18px;
+        font-size: 20px;
       }
 
       .m {
-        font-size: 20px;
+        font-size: 18px;
       }
 
       .s {
