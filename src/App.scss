@@ -1,221 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-    --primary-color: #171717;
-    --primary-color2: #202022;
-    --secondary-color: #ff4700;
-    --secondary-dark-color: #d33f12;
-    --white-color: #ffffff;
-    --light-grey-color: #c4c4c4;
-    --dark-grey-color: #707070;
+  --primary-color: #171717;
+  --primary-color2: #202022;
+  --secondary-color: #ff4700;
+  --secondary-dark-color: #d33f12;
+  --white-color: #ffffff;
+  --light-grey-color: #c4c4c4;
+  --dark-grey-color: #707070;
 
+  --navbar-height: 60px;
+
+  --font-x-large: 68px;
+  --font-l-large: 48px;
+  --font-large: 37px;
+  --font-x-medium: 32px;
+  --font-medium: 25px;
+  --font-small: 20px;
+  --font-x-small: 15px;
+
+  --bold: 700;
+  --semi-bold: 600;
+  --medium: 500;
+  --regular: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--white-color);
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.App {
+  min-height: 200vh;
+}
+
+//letter-spacing
+.ls-1 {
+  letter-spacing: 0.5px;
+}
+.ls-2 {
+  letter-spacing: 3px;
+}
+
+//font
+.ff-raleway {
+  font-family: "Raleway", sans-serif;
+}
+.ff-paci {
+  font-family: "Pacifico", sans-serif;
+}
+
+//colors
+.pc {
+  color: var(--primary-color);
+}
+
+.pc2 {
+  color: var(--primary-color2);
+}
+
+.sc {
+  color: var(--secondary-color);
+}
+
+.wc {
+  color: var(--white-color);
+}
+
+.lgc {
+  color: var(--light-grey-color);
+}
+
+.dgc {
+  color: var(--dark-grey-color);
+}
+
+//margin
+.m-1 {
+  margin: 1em;
+}
+
+.m-2 {
+  margin: 2em;
+}
+
+.m-3 {
+  margin: 3em;
+}
+
+.mt-3 {
+  margin-top: 3em;
+}
+
+.mb-3 {
+  margin-bottom: 3em;
+}
+
+.mb-20 {
+  margin-bottom: 50px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.section-pad {
+  padding-top: 8em;
+}
+
+.pt-3 {
+  padding-top: 3em;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+//font styles
+.xl {
+  font-size: var(--font-x-large);
+  margin-top: 15px;
+}
+
+.ll {
+  font-size: var(--font-l-large);
+  margin-top: 12px;
+}
+
+.l {
+  font-size: var(--font-large);
+  margin-top: 12px;
+}
+
+.xm {
+  font-size: var(--font-x-medium);
+  margin-top: 12px;
+}
+
+.m {
+  font-size: var(--font-medium);
+  margin-top: 12px;
+}
+
+.s {
+  font-size: var(--font-small);
+  margin-top: 8px;
+}
+
+.xs {
+  font-size: var(--font-x-small);
+  margin-top: 4px;
+}
+
+.bold {
+  font-weight: var(--bold);
+}
+
+.semi-bold {
+  font-weight: var(--semi-bold);
+}
+
+.medium {
+  font-weight: var(--medium);
+}
+
+.regular {
+  font-weight: var(--regular);
+}
+
+//styles
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.rg-10 {
+  row-gap: 10px;
+}
+
+.cg-10 {
+  column-gap: 10px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1570px) {
+  :root {
     --navbar-height: 60px;
 
-    --font-x-large: 68px;
-    --font-large: 37px;
+    --font-x-large: 50px;
+    --font-large: 25px;
     --font-x-medium: 32px;
-    --font-medium: 25px;
-    --font-small: 20px;
-    --font-x-small: 15px;
+    --font-medium: 20px;
+    --font-small: 18px;
+    --font-x-small: 13px;
 
     --bold: 700;
     --semi-bold: 600;
     --medium: 500;
     --regular: 400;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: var(--white-color);
-}
-
-body {
-    background-color: var(--primary-color);
-}
-
-.App {
-    min-height: 200vh;
-}
-
-//colors
-.pc {
-    color: var(--primary-color);
-}
-
-.pc2 {
-    color: var(--primary-color2);
-}
-
-.sc {
-    color: var(--secondary-color);
-}
-
-.wc {
-    color: var(--white-color);
-}
-
-.lgc {
-    color: var(--light-grey-color);
-}
-
-.dgc {
-    color: var(--dark-grey-color);
-}
-
-//margin
-.m-1 {
-    margin: 1em;
-}
-
-.m-2 {
-    margin: 2em;
-}
-
-.m-3 {
-    margin: 3em;
-}
-
-.mt-3 {
-    margin-top: 3em;
-}
-
-.mb-3 {
-    margin-bottom: 3em;
-}
-
-.mb-20 {
-    margin-bottom: 50px;
-}
-
-.section-pad {
-    padding-top: 8em;
-}
-
-.pt-3 {
-    padding-top: 3em;
-}
-
-.mt-10 {
-    margin-top: 10px;
-}
-
-//font styles
-.xl {
-    font-size: var(--font-x-large);
-    margin-top: 15px;
-}
-
-.l {
-    font-size: var(--font-large);
-    margin-top: 12px;
-}
-
-.xm {
-    font-size: var(--font-x-medium);
-    margin-top: 12px;
-}
-
-.m {
-    font-size: var(--font-medium);
-    margin-top: 12px;
-}
-
-.s {
-    font-size: var(--font-small);
-    margin-top: 8px;
-}
-
-.xs {
-    font-size: var(--font-x-small);
-    margin-top: 4px;
-}
-
-.bold {
-    font-weight: var(--bold);
-}
-
-.semi-bold {
-    font-weight: var(--semi-bold);
-}
-
-.medium {
-    font-weight: var(--medium);
-}
-
-.regular {
-    font-weight: var(--regular);
-}
-
-//styles
-li {
-    list-style: none;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.rg-10 {
-    row-gap: 10px;
-}
-
-.cg-10 {
-    column-gap: 10px;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-}
-
-@media only screen and (max-width: 1570px) {
-    :root {
-        --navbar-height: 60px;
-
-        --font-x-large: 50px;
-        --font-large: 25px;
-        --font-x-medium: 32px;
-        --font-medium: 20px;
-        --font-small: 18px;
-        --font-x-small: 13px;
-
-        --bold: 700;
-        --semi-bold: 600;
-        --medium: 500;
-        --regular: 400;
-    }
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    .container {
-        width: 92%;
-    }
-    :root {
-        --navbar-height: 50px;
+  .container {
+    width: 92%;
+  }
+  :root {
+    --navbar-height: 50px;
 
-        --font-x-large: 35px;
-        --font-large: 18px;
-        --font-x-medium: 32px;
-        --font-medium: 20px;
-        --font-small: 15px;
-        --font-x-small: 13px;
+    --font-x-large: 35px;
+    --font-large: 18px;
+    --font-l-large: 40px;
+    --font-x-medium: 32px;
+    --font-medium: 20px;
+    --font-small: 15px;
+    --font-x-small: 13px;
 
-        --bold: 700;
-        --semi-bold: 600;
-        --medium: 500;
-        --regular: 400;
-    }
+    --bold: 700;
+    --semi-bold: 600;
+    --medium: 500;
+    --regular: 400;
+  }
 }

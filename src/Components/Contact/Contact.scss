@@ -1,106 +1,140 @@
 .contact {
-    padding-bottom: 20em;
+  padding-bottom: 20em;
 
-    .contact-whole {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+  .contact-whole {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .contact-bar {
+      width: 4px;
+      height: 150px;
+      background-color: #c4c4c4;
+    }
+  }
+
+  .contact-details {
+    .m {
+      margin-top: 3px;
+    }
+
+    .email-total-area {
+      margin-top: 20px;
+
+      .email-area {
         align-items: center;
+        margin-bottom: 4px;
 
-        .contact-bar {
-            width: 4px;
-            height: 150px;
-            background-color: #c4c4c4;
-        }
-    }
+        .c-icon {
+          width: 30px;
+          height: 30px;
 
-    .contact-details {
-        .m {
-            margin-top: 3px;
-        }
-
-        .email-total-area {
-            margin-top: 20px;
-
-            .email-area {
-                align-items: center;
-                margin-bottom: 4px;
-
-                .c-icon {
-                    width: 30px;
-                    height: 30px;
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: contain;
-                    }
-                }
-
-                h3 {
-                    margin-left: 5px;
-                    margin-top: 0;
-                    color: var(--dark-grey-color);
-
-                    a {
-                        text-decoration: none;
-                        color: var(--dark-grey-color);
-                    }
-                }
-            }
-        }
-    }
-}
-
-.contact-links {
-    .c-icon {
-        width: 50px;
-        height: 50px;
-
-        img {
+          img {
             width: 100%;
             height: 100%;
             object-fit: contain;
-            transition: 0.2s ease-in-out;
-
-            &:hover {
-                filter: brightness(1.5);
-                transform: scale(0.94);
-            }
+          }
         }
+
+        h3 {
+          margin-left: 5px;
+          margin-top: 0;
+          color: var(--dark-grey-color);
+
+          a {
+            text-decoration: none;
+            color: var(--dark-grey-color);
+          }
+        }
+      }
     }
+  }
 }
 
 .contact-links {
-    justify-content: space-between;
-    width: 300px;
-
+  a {
     .c-icon {
-        margin-right: 10px;
+      width: 50px;
+      height: 50px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          filter: brightness(2);
+          transform: scale(0.94);
+        }
+      }
     }
+
+    &:nth-child(1) {
+      .c-icon {
+        &:hover {
+          filter: drop-shadow(0 0 5px #0072b1);
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .c-icon {
+        &:hover {
+          filter: drop-shadow(0 0 5px grey);
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      .c-icon {
+        &:hover {
+          filter: drop-shadow(0 0 5px #bc2a8d);
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      .c-icon {
+        &:hover {
+          filter: drop-shadow(0 0 5px #1778f2);
+        }
+      }
+    }
+  }
+}
+
+.contact-links {
+  justify-content: space-between;
+  width: 300px;
+
+  .c-icon {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 850px) {
-    .contact-links {
-        justify-content: space-between;
-        width: 200px;
+  .contact-links {
+    justify-content: space-between;
+    width: 200px;
 
-        .c-icon {
-            margin-right: 10px;
-        }
+    .c-icon {
+      margin-right: 10px;
     }
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .contact {
-        padding-bottom: 5em;
-        .contact-whole {
-            flex-direction: column-reverse;
-            .contact-bar {
-                width: 30vw;
-                height: 4px;
-                margin: 5em 0;
-            }
-        }
+  .contact {
+    padding-bottom: 5em;
+    .contact-whole {
+      flex-direction: column-reverse;
+      .contact-bar {
+        width: 30vw;
+        height: 4px;
+        margin: 5em 0;
+      }
     }
+  }
 }

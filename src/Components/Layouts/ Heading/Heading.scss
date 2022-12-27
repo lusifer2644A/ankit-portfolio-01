@@ -1,22 +1,22 @@
 @import url("../../../App.scss");
 
 .heading {
-    margin-bottom: 4em;
+  margin-bottom: 4em;
 
-    p {
-        text-transform: uppercase;
-        letter-spacing: 8px;
-    }
+  p {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+  }
 
-    .heading_bar {
-        width: 120px;
-        height: 2px;
-        display: inline-block;
-        background-color: var(--secondary-color);
-        margin-top: 10px;
-    }
+  .heading_bar {
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    background: linear-gradient(to right, #e94057, #f27121, #8a2387);
+    margin-top: 10px;
+  }
 }
 
 .right {
-    align-items: flex-end;
+  align-items: flex-end;
 }
