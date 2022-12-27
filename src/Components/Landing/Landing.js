@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <section className="landing flex flex-row " id="home">
       <div className="landing-details">
-        <div>
+        <div className="" style={{ marginBottom: "20px" }}>
           <span
             className="ll bold ff-paci ls-2 gradient_text"
             style={{
@@ -22,7 +22,7 @@ const Landing = () => {
           <span className="m bold ff-raleway" style={{ marginRight: "10px" }}>
             I'm
           </span>
-          <span className="xl bold ff-raleway">Ankit Kumar Gupta</span>
+          <span className="xl bold ff-raleway ">Ankit Kumar Gupta</span>
         </div>
         <h2 className="m semi-bold">Full-time Developer Intern @Goglocal</h2>
         <h2 className="s regular mb-20" style={{ marginTop: "3px" }}>

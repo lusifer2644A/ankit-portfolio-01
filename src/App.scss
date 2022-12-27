@@ -226,18 +226,18 @@ li {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .container {
-    width: 92%;
+    width: 90%;
   }
   :root {
     --navbar-height: 50px;
 
-    --font-x-large: 35px;
-    --font-large: 18px;
+    --font-x-large: 34px;
+    --font-large: 22px;
     --font-l-large: 40px;
-    --font-x-medium: 32px;
-    --font-medium: 20px;
+    --font-x-medium: 28px;
+    --font-medium: 18px;
     --font-small: 15px;
     --font-x-small: 13px;
 
