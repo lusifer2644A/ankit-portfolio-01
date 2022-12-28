@@ -1,0 +1,8 @@
+# Block all crawlers for
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+User-agent: *
+Sitemap: https://www.ankitkumargupta.in/sitemap.xml
