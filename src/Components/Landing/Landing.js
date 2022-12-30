@@ -45,7 +45,7 @@ const Landing = () => {
           In my free time I do freelancing or get some nice clicks and clips.
         </p>
         <Button
-          link="https://docs.google.com/document/d/1m-L6VnSjR8RiiQ36_C83l2cgTDZF_FPU8kJMStw8C2s/edit?usp=sharing"
+          link="https://docs.google.com/document/d/1VY32D_0pnIGWziKpVwqX6ogSoFvrYicmOOBTF2SCskY/edit?usp=sharing"
           dataAos="fade-right"
         >
           Resume
