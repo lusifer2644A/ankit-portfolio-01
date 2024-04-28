@@ -16,19 +16,10 @@ const Contact = () => {
         {/* contact details */}
         <div className="flex flex-column contact-details">
           <h2 className="semi-bold l wc">Ankit Kumar Gupta</h2>
-          <h3 className="m dgc medium">Amber Hostel, IIT(ISM), Dhanbad</h3>
-          <h3 className="m dgc medium">Dhanbad, Jharkhand</h3>
-          <h3 className="m dgc medium">826004</h3>
+          <h3 className="m dgc medium">Navi Mumbai, Maharashtra</h3>
+          <h3 className="m dgc medium">400709</h3>
 
           <div className="email-total-area">
-            <div className="flex flex-row email-area align-items">
-              <div className="c-icon">{email}</div>
-              <h3 className="s dgc medium">
-                <a href="mailto:ankit.19je0147@ece.iitism.ac.in">
-                  ankit.19je0147@ece.iitism.ac.in
-                </a>
-              </h3>
-            </div>
             <div className="flex flex-row email-area">
               <div className="c-icon">{email}</div>
               <h3 className="s dgc medium">

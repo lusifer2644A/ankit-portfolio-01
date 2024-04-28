@@ -29,23 +29,24 @@ const Landing = () => {
             Ankit Kumar Gupta
           </span>
         </div>
-        <h2 className="m semi-bold">Full-time Developer Intern @Goglocal</h2>
+        <h2 className="m semi-bold">Software Developer @JIO</h2>
         <h2 className="s regular mb-20" style={{ marginTop: "3px" }}>
-          Ex-SDE Intern @JIO Platforms Limited
+          Ex-Goglocal
         </h2>
         <p className="s regular dgc">
-          I’m a final year student pursuing Bachelors of Technology in
-          Electronics and Communication Engineering at IIT(ISM), Dhanbad.
+          A software developer on a mission to innovate and elevate.
         </p>
         <p className="s regular dgc">
-          I build Web Applications and love doing Frontend Development. I am
-          also a proficient C++ coder in Data Structures and Algorithm.
+          From engineering robust APIs for Jio TV's massive audience to crafting
+          intuitive front-end solutions for Goglocal's strategic insights tools
+          and softwares, my journey in software development is driven by passion
+          and purpose.{" "}
         </p>
         <p className="s regular dgc">
-          In my free time I do freelancing or get some nice clicks and clips.
+          In my free time, I do freelancing or get some nice pictures and clips.
         </p>
         <Button
-          link="https://docs.google.com/document/d/1VY32D_0pnIGWziKpVwqX6ogSoFvrYicmOOBTF2SCskY/edit?usp=sharing"
+          link="https://drive.google.com/file/d/16Z9UlekFoeY-02N7jQAEvniV2lkD-OB6/view?usp=sharing"
           dataAos="fade-right"
         >
           Resume

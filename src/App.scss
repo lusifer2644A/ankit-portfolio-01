@@ -178,6 +178,15 @@ body {
 li {
   list-style: none;
 }
+ul {
+  list-style-position: inside;
+  margin-left: 0.95em;
+  text-align: left;
+}
+ul > li {
+  list-style-type: disc;
+  margin-top: 5px;
+}
 
 .flex {
   display: flex;

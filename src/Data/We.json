@@ -1,38 +1,66 @@
 [
   {
-    "type": "Full-Time Intern",
+    "type": "Full-Time",
+    "company": "JIO Platforms, Navi Mumbai, Maharashtra",
+    "position": "Software Development Engineer - Backend",
+    "duration": "Dec 2023 - Present",
+    "company_image_url": "/company_logo/jio.webp",
+    "data": [
+      "Collaborating within a team to develop scalable APIs with NestJS MongoDB for Jio TV content management service, serving a colossal user base of 452 million users.",
+      "Contributing to Node.js cron script development, enhancing content delivery efficiency in a team environment."
+    ]
+  },
+  {
+    "type": "Full-Time",
     "company": "Goglocal, Mumbai, Maharashtra",
-    "position": "Frontend Developer Intern",
-    "duration": "Dec 2022 - Present"
+    "position": "Frontend Developer",
+    "duration": "Aug 2022 - Nov 2023",
+    "company_image_url": "/company_logo/goglocal.png",
+    "data": [
+      "Worked as part-time SDE and contributed to front-end development of Seller Central web app, enabling streamlined order and logistics management, resulting in successful pre-seed funding of nearly $5 million.",
+      "Created Strategic Insights Tool web-app which achieved to increase 30% sales for Indian sellers, delivering brand performance and marketplace insights"
+    ]
   },
   {
     "type": "Full-Time Intern",
     "company": "JIO Platforms, Navi Mumbai, Maharashtra",
     "position": "Software Development Engineer",
-    "duration": "May 2022 - Jul 2022"
+    "duration": "May 2022 - Jul 2022",
+    "company_image_url": "/company_logo/jio.webp",
+    "data": [
+      "Collaborated on developing a high-performance Excel sheet upload API for My Jio app, serving 13.2M daily users.",
+      "Conducted load testing and attained 224ms average response time for 1000 request/s, containerized with Docker and Kubernetes for scalable deployment.",
+      "Integrated Jinja templates for HTML rendering and utilized Azure Repos and pipelines leading to a 30% reduction in development time."
+    ]
   },
   {
     "type": "Part-Time Intern",
     "company": "Goglocal, Mumbai, Maharashtra",
     "position": "Frontend Developer",
-    "duration": "May 2022 - Sep 2022"
+    "duration": "May 2022 - Jul 2022",
+    "company_image_url": "/company_logo/goglocal.png",
+    "data": [
+      "Developed comprehensive website with intuitive user experience, increasing traffic by 50% and improving conversion rates by 15%."
+    ]
   },
   {
     "type": "Internship",
     "company": "GEOGO Techsolutions, Benguluru, Karnataka",
     "position": "Full Stack Developer",
-    "duration": "Nov 2021 - Jan 2022"
+    "duration": "Nov 2021 - Jan 2022",
+    "company_image_url": "/company_logo/geogo.png",
+    "data": [
+      "Made a weather app for client, with auto Geolocation detection feature and displaying weather in friendly UI design."
+    ]
   },
   {
     "type": "Volenteer",
     "company": "Student Gymkhana, IIT(ISM), Dhanbad",
     "position": "Full Stack Developer",
-    "duration": "Aug 2021 - Oct 2021"
-  },
-  {
-    "type": "Internship",
-    "company": "Stargate Inc.",
-    "position": "Frontend Developer",
-    "duration": "Jun 2021 - Jul 2021"
+    "duration": "Aug 2021 - Oct 2021",
+    "company_image_url": "/company_logo/sg.png",
+    "data": [
+      "Worked as a team player for the making the Gymkhana website with admin portal where post, polls and notifications can be sent to students of ISM."
+    ]
   }
 ]

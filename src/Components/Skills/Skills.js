@@ -15,6 +15,10 @@ const pgData = [
     rating: 5,
   },
   {
+    lang: "Typescript",
+    rating: 4,
+  },
+  {
     lang: "Javascript",
     rating: 4,
   },
@@ -39,7 +43,7 @@ const skillData = [
   },
   {
     type: "BACKEND",
-    fields: ["Node.js", "MongoDB", "Express", "Fast API", "SQL"],
+    fields: ["Nest.js", "Node.js", "MongoDB", "Express", "Fast API", "SQL"],
   },
   {
     type: "Devops",
